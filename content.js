@@ -2,7 +2,7 @@ var urlList;
 var _timer;
 var myWin;
 
-
+// get all the links in the webpage
 urlList = document.getElementsByTagName("A");
 for (var i=0; i<urlList.length; i++){
     urlList[i].onmouseover=openPreview;
